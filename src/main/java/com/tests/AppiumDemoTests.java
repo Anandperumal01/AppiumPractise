@@ -29,7 +29,7 @@ public class AppiumDemoTests {
         System.out.println(" second Time");
 
         DesiredCapabilities capabilites =new DesiredCapabilities();
-        System.out.println(" second Time");
+        System.out.println(" Third Time");
 
         capabilites.setCapability(MobileCapabilityType.APP,System.getProperty("user.dir")+"/ApiDemos-debug.apk");
       //  capabilites.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
