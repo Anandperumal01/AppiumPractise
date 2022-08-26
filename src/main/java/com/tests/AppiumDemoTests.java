@@ -21,6 +21,7 @@ import java.time.Duration;
 
 public class AppiumDemoTests {
     AndroidDriver driver;
+
     @Test
     public void apidemos() throws MalformedURLException, InterruptedException {
         System.out.println(" i am inside api demos");
@@ -28,8 +29,10 @@ public class AppiumDemoTests {
         System.out.println(" second Time");
 
         DesiredCapabilities capabilites =new DesiredCapabilities();
+        System.out.println(" second Time");
+
         capabilites.setCapability(MobileCapabilityType.APP,System.getProperty("user.dir")+"/ApiDemos-debug.apk");
-        capabilites.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
+      //  capabilites.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
         capabilites.setCapability(MobileCapabilityType.DEVICE_NAME,"RZ8M740EBJT");
 
 
